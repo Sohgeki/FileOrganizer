@@ -1,8 +1,8 @@
 import os
 import sys
 import shutil
-import func
-from func import *
+import extensions
+from extensions import *
 
 def main():
     try:
