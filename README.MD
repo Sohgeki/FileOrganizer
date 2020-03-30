@@ -12,11 +12,14 @@ git clone https://github.com/Sohgeki/FileOrganizer
 
 2. Execute using the following command
 
-```
+
 ###### Windows
+```
 python fileorg.py
+```
 
 ###### Linux
+```
 python3 fileorg.py
 ```
 
