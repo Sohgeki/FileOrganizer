@@ -24,6 +24,7 @@ python3 fileorg.py
 ## Usage
 
 Running this script will ask you what directory to search and organize files from.
-It will then find and filter files into 4 different folders: Documents, Pictures, Music, and Videos
+It will then find and filter files into 4 different folders: 
+```Documents, Pictures, Music, and Videos```
 
 You can give 
