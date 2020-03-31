@@ -52,7 +52,7 @@ elif(sys.argv[1].endswith(('f', 'files', 'extensions', 'ext'))):
             ext.append(sys.argv[x])
 
     del ext[:2]
-    func.custom(dir, ext)
+    custom(dir, ext)
 
 else:
     print("Invalid number of arguments! Exiting...")
