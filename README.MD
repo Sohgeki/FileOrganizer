@@ -38,5 +38,8 @@ python fileorg.py ./Files/  : Specify what directory to organize
 ```
 ```
 python fileorg.py -f mp3 webm exe txt -d ./Files/ : Specify file type and directory to move files to
+
+You can also use -files, -extensions, -ext for -f
+and -dir and -destination for -d
 ```
 
