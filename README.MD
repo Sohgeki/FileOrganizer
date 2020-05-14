@@ -25,6 +25,16 @@ python3 fileorg.py
 
 Running this script will ask you what directory to search and organize files from.
 It will then find and filter files into 4 different folders: 
-```Documents, Pictures, Music, and Videos```
+```
+Documents: txt, docx, pdf, ini, rtf, pptx
+Pictures: png, jpg, jpeg, gif, xwd
+Music: mp3, wav, flac, aac, au, aiff, pcm, ogg, alac, wma
+Videos: mp4, mkv, avi, webm, wmv, mpeg, mov, flv
+```
 
-You can give 
+You can give certain arguments to control what files or directories to organize:
+
+-f, -files, -extensions, -ext; -d, -dir, -destination:  ```Specify file type to organize and move to specified destination```
+```
+python fileorg.py -f mp3 webm exe txt -d ./Files/
+```
