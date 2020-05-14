@@ -43,7 +43,7 @@ def text(dir, file):
 def music(dir, file):
     audio = []
     for ext in file:
-        if ext.endswith(('mp3', 'flac', 'wav', 'webm', 'au', 'aiff', 'pcm', 'aac', 'ogg', 'alac', 'wma')):
+        if ext.endswith(('mp3', 'flac', 'wav', 'au', 'aiff', 'pcm', 'aac', 'ogg', 'alac', 'wma')):
             audio.append(ext)
 
     if len(audio) > 0:
