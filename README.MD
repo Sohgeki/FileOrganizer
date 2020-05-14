@@ -33,8 +33,10 @@ Videos: mp4, mkv, avi, webm, wmv, mpeg, mov, flv
 ```
 
 You can give certain arguments to control what files or directories to organize:
+```
+python fileorg.py ./Files/  : Specify what directory to organize
+```
+```
+python fileorg.py -f mp3 webm exe txt -d ./Files/ : Specify file type and directory to move files to
+```
 
--f, -files, -extensions, -ext; -d, -dir, -destination:  ```Specify file type to organize and move to specified destination```
-```
-python fileorg.py -f mp3 webm exe txt -d ./Files/
-```
